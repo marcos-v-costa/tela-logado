@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap");
+  
+  html,
+  body,
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /*CSS do container*/
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 60%;
+    background-color: rgb(208, 208, 208);
+    border-radius: 30px;
+    padding: 25px;
+  }
+  /*CSS do container*/
+  
+  /*Código abaixo é o CSS referente à área do topo; Ícone de volta, logo e ícones de volume e configuração*/
+  
+  #area-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    /*background-color: rgb(247, 10, 10);*/
+  }
+  
+  #icone-volta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgb(253, 143, 0);*/
+    width: 20%;
+  }
+  
+  #logo-meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 255, 37);
+    height: 60%;
+    width: 30%;
+    font-family: "Sora";
+  }
+  
+  #icones-canto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 40%;
+    width: 20%;
+    color: aliceblue;
+  }
+  
+  #config-icon {
+    height: 70%;
+  }
+  #speaker-icon {
+    height: 70%;
+  }
+  
+  #botao-volta {
+    height: 90%;
+  }
+  
+  #voltar-texto {
+    font-family: "Montserrat";
+    font-weight: 700;
+  }
+  /*Código acima é o CSS referente à área do topo; Ícone de volta, logo e ícones de volume e configuração*/
+  
+  /*Código abaixo é o CSS referente à área do meio; Primeiro meio e segundo meio*/
+  #area-meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    /*background-color: rgb(57, 168, 23);*/
+  }
+  
+  /*Primeira parte do meio, lado esquerdo*/
+  #meio-um {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /*background-color: blueviolet;*/
+  }
+  
+  #foto-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: chocolate;*/
+    width: 100%;
+    height: 50%;
+  }
+  
+  #circulo-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(8, 8, 8);
+    border-radius: 100px;
+    width: 32%;
+    height: 60%;
+  }
+  
+  #texto-foto {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+  }
+  
+  #texto-apelido {
+    font-family: "Sora";
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  #logout {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  }
+  
+  #texto-logout {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 800;
+    color: rgb(73, 73, 73);
+  }
+  
+  #area-historico {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    /*background-color: rgb(3, 15, 83);*/
+    gap: 4px;
+  }
+  
+  .historico-quest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(113, 113, 113);
+    width: 70%;
+    height: 20%;
+    font-family: "Sora";
+    font-size: 14px;
+  }
+  
+  #hist-quest {
+    color: white;
+  }
+  
+  /*Segundo parte do meio, o lado direito*/
+  #meio-dois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgb(236, 159, 15);*/
+    width: 50%;
+    height: 100%;
+  }
+  
+  #criar-sala {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*background-color: rgb(253, 3, 178);*/
+    width: 100%;
+    height: 50%;
+    gap: 10px;
+  }
+  
+  #digite-pin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+    width: 70%;
+    height: 20%;
+    border-radius: 20px;
+  }
+  
+  .caixas-sala {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(113, 113, 113);
+    width: 70%;
+    height: 20%;
+    border-radius: 20px;
+    font-family: "Sora";
+    font-size: 14px;
+  }
+  
+  #texto-criar,
+  #entrar-sala {
+    color: white;
+  }
+  
+  #digite-pin {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 12px;
+    color: black;
+  }
+  
+  #sala-existente {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 12px;
+    color: #4f4f4f;
+  }
+  /*Código acima é o CSS referente à área do meio; Primeiro meio e segundo meio*/
+  
